@@ -1,0 +1,82 @@
+.torreta {
+    position: relative;
+    width: 100px;
+    height: 150px;
+  }
+  
+  .base {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+  }
+  
+  .pata {
+    position: absolute;
+    bottom: -10px;
+    width: 10px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: gray;
+  }
+  
+  .pata:nth-child(1) {
+    left: 25%;
+  }
+  
+  .pata:nth-child(2) {
+    left: 50%;
+  }
+  
+  .pata:nth-child(3) {
+    left: 75%;
+  }
+  
+  .cuerpo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 90px;
+    background-color: gray;
+  }
+  
+  .luz {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+  }
+  
+  .luz:nth-child(1) {
+    left: 50%;
+  }
+  
+  .luz:nth-child(2) {
+    top: 25px;
+  }
+  
+  .luz:nth-child(3) {
+    top: 45px;
+  }
+  
+  .abertura {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    right: 0;
+    width: 30px;
+    height: 40px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  
